@@ -51,6 +51,7 @@ services:
       - ./exports:/files/exports
     networks:
       - internal
+      - egress
     security_opt:
       - no-new-privileges:true
 
@@ -58,6 +59,8 @@ networks:
   internal:
     driver: bridge
     internal: true
+  egress:
+    driver: bridge
 
 volumes:
   postgres_data:

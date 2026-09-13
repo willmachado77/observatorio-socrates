@@ -11,10 +11,10 @@
 | Projeto Compose | `observatorio-socrates` | permanece inalterado |
 | PostgreSQL | volume e banco próprios | banco existente não é acessado |
 | n8n | volume e porta `127.0.0.1:5680` | porta `127.0.0.1:5678` preservada |
-| Rede | bridge interna própria | rede existente não é reutilizada |
+| Rede | rede interna para banco e rede de saída para n8n | rede existente não é reutilizada |
 | Exportações | `infra/exports/` próprio | sem compartilhamento |
 
-PostgreSQL não possui porta publicada. O n8n só atende no loopback. A rede Docker é interna; o acesso ao Ollama, quando aprovado, ocorre pelo alias `host.docker.internal` e não exige expor a porta 11434 à internet.
+PostgreSQL não possui porta publicada e participa somente da rede `internal`. O n8n atende apenas no loopback, mas também participa da rede `egress` para consultar fontes públicas quando essa coleta for autorizada. O acesso ao Ollama ocorre pelo alias `host.docker.internal` e não exige expor a porta 11434 à internet.
 
 ## Segredos
 
