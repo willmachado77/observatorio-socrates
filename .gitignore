@@ -2,6 +2,7 @@
 .env
 .env.*
 !.env.example
+!infra/.env.infrastructure.example
 
 # Local data and generated artifacts
 data/raw/
