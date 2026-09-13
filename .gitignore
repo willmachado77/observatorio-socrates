@@ -1,0 +1,16 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Local data and generated artifacts
+data/raw/
+data/transcripts/
+data/exports/
+data/cache/
+*.log
+
+# Editor and operating-system metadata
+.DS_Store
+.idea/
+.vscode/
