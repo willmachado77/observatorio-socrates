@@ -1,0 +1,39 @@
+name: Validate repository
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate Compose declaration
+        run: |
+          docker compose \
+            --env-file infra/.env.infrastructure.example \
+            -f infra/compose.yaml \
+            config --quiet
+
+      - name: Validate backup script syntax
+        run: bash -n infra/scripts/backup-postgres.sh
+
+      - name: Validate systemd unit files
+        run: |
+          systemd-analyze verify \
+            infra/systemd/observatorio-socrates-backup.service \
+            infra/systemd/observatorio-socrates-backup.timer
+
+      - name: Prevent local secrets from entering the repository
+        run: |
+          test ! -e infra/.env
+          test ! -e .env
