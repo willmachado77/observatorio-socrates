@@ -28,10 +28,14 @@ jobs:
       - name: Validate backup script syntax
         run: bash -n infra/scripts/backup-postgres.sh
 
-      - name: Validate systemd unit files
+      - name: Validate portable systemd unit syntax
         run: |
-          systemd-analyze verify \
+          sed "s#/ocupa/dev/observatorio-socrates#${GITHUB_WORKSPACE}#g" \
             infra/systemd/observatorio-socrates-backup.service \
+            > "${RUNNER_TEMP}/observatorio-socrates-backup.service"
+
+          systemd-analyze verify \
+            "${RUNNER_TEMP}/observatorio-socrates-backup.service" \
             infra/systemd/observatorio-socrates-backup.timer
 
       - name: Prevent local secrets from entering the repository
