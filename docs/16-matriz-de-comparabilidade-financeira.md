@@ -24,7 +24,7 @@ integrais das matérias não foram armazenados.
 
 | Indicador | Corinthians | São Paulo FC | Palmeiras | Resultado |
 |---|---|---|---|---|
-| Resultado anual (déficit/superávit) | disponível | disponível | não registrado neste lote | não comparável |
+| Resultado anual (déficit/superávit) | déficit registrado | déficit registrado | superávit contábil registrado | comparável com ressalvas |
 | Dívida total | número reportado em item, ainda sem alegação registrada | disponível | não disponível neste lote | não comparável |
 | Receita total | número reportado em item, ainda sem alegação registrada | número reportado em item, ainda sem alegação registrada | disponível | não comparável |
 | Receita com transferências | não registrada como alegação | não registrada como alegação | disponível | não comparável |
@@ -46,11 +46,18 @@ integrais das matérias não foram armazenados.
 
 ## Decisão do ciclo
 
-O estado analítico atual é `insufficient_evidence`.
+Há base factual mínima para uma comparação estrita do
+`resultado_anual_2024`: os três clubes possuem alegação factual, referente a
+2024, vinculada a matérias do ge sobre seus respectivos balanços.
 
-Nenhum registro deve ser criado em `comparisons` até existir, para os três
-clubes, uma base explicitamente equivalente para ao menos um indicador e uma
-justificativa de equivalência revisada por humano.
+O estado da comparação permanece `needs_context`. Os valores não harmonizam
+demonstrações contábeis, composição de passivos, receitas ou critérios de
+apuração; por isso, não autorizam conclusão causal, avaliação de gestão ou
+qualquer inferência sobre cobertura editorial.
+
+Um registro técnico em `comparisons` pode organizar essas três alegações, desde
+que mantenha o estado `needs_context` e uma justificativa de equivalência seja
+revisada por humano antes de qualquer conclusão.
 
 ## Próximo requisito
 
