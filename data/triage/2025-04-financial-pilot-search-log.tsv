@@ -23,15 +23,15 @@ SRCH-2025-04-021	ge	Palmeiras	balanço 2024	2025-04-01	2025-04-30	executada_com_
 SRCH-2025-04-022	ge	Palmeiras	demonstrações financeiras 2024	2025-04-01	2025-04-30	pendente		2026-09-16T06:37:39Z		
 SRCH-2025-04-023	ge	Palmeiras	contas de 2024	2025-04-01	2025-04-30	pendente		2026-09-16T06:37:39Z		
 SRCH-2025-04-024	ge	Palmeiras	balanço financeiro 2024	2025-04-01	2025-04-30	pendente		2026-09-16T06:37:39Z		
-SRCH-2025-04-025	ESPN Brasil	Corinthians	balanço 2024	2025-04-01	2025-04-30	pendente		2026-09-16T06:37:39Z		
+SRCH-2025-04-025	ESPN Brasil	Corinthians	balanço 2024	2025-04-01	2025-04-30	revisar		2026-09-16T06:55:28Z	Candidato já registrado: CAND-2025-04-ESPN-003. A procedência da consulta declarada deve ser reconciliada antes do cadastro formal no PostgreSQL.	reconciliação documental; não constitui nova busca
 SRCH-2025-04-026	ESPN Brasil	Corinthians	demonstrações financeiras 2024	2025-04-01	2025-04-30	pendente		2026-09-16T06:37:39Z		
 SRCH-2025-04-027	ESPN Brasil	Corinthians	contas de 2024	2025-04-01	2025-04-30	pendente		2026-09-16T06:37:39Z		
 SRCH-2025-04-028	ESPN Brasil	Corinthians	balanço financeiro 2024	2025-04-01	2025-04-30	pendente		2026-09-16T06:37:39Z		
-SRCH-2025-04-029	ESPN Brasil	São Paulo FC	balanço 2024	2025-04-01	2025-04-30	pendente		2026-09-16T06:37:39Z		
+SRCH-2025-04-029	ESPN Brasil	São Paulo FC	balanço 2024	2025-04-01	2025-04-30	revisar		2026-09-16T06:55:28Z	Candidato já registrado: CAND-2025-04-ESPN-002. A procedência da consulta declarada deve ser reconciliada antes do cadastro formal no PostgreSQL.	reconciliação documental; não constitui nova busca
 SRCH-2025-04-030	ESPN Brasil	São Paulo FC	demonstrações financeiras 2024	2025-04-01	2025-04-30	pendente		2026-09-16T06:37:39Z		
 SRCH-2025-04-031	ESPN Brasil	São Paulo FC	contas de 2024	2025-04-01	2025-04-30	pendente		2026-09-16T06:37:39Z		
 SRCH-2025-04-032	ESPN Brasil	São Paulo FC	balanço financeiro 2024	2025-04-01	2025-04-30	pendente		2026-09-16T06:37:39Z		
-SRCH-2025-04-033	ESPN Brasil	Palmeiras	balanço 2024	2025-04-01	2025-04-30	pendente		2026-09-16T06:37:39Z		
+SRCH-2025-04-033	ESPN Brasil	Palmeiras	balanço 2024	2025-04-01	2025-04-30	revisar		2026-09-16T06:55:28Z	Candidato já registrado: CAND-2025-04-ESPN-001. A procedência da consulta declarada deve ser reconciliada antes do cadastro formal no PostgreSQL.	reconciliação documental; não constitui nova busca
 SRCH-2025-04-034	ESPN Brasil	Palmeiras	demonstrações financeiras 2024	2025-04-01	2025-04-30	pendente		2026-09-16T06:37:39Z		
 SRCH-2025-04-035	ESPN Brasil	Palmeiras	contas de 2024	2025-04-01	2025-04-30	pendente		2026-09-16T06:37:39Z		
 SRCH-2025-04-036	ESPN Brasil	Palmeiras	balanço financeiro 2024	2025-04-01	2025-04-30	pendente		2026-09-16T06:37:39Z		
