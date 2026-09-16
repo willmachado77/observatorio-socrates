@@ -31,6 +31,25 @@ período de referência e, quando disponível, relatório de auditoria.
 A referência corintiana não é promovida a fonte primária validada: a resposta
 HTTP 403 impede a inspeção direta do artefato nesta etapa.
 
+## Cópia recebida para inspeção
+
+Uma cópia denominada `demonstrações_corinthians.pdf` foi inspecionada fora do
+repositório. Ela contém 57 páginas, identifica o Sport Club Corinthians
+Paulista, as demonstrações financeiras dos exercícios de 2024 e 2023 e o
+relatório do auditor independente.
+
+- SHA-256: `02938c6832b5126a91305022d5b571f17a815622311a670d6b2228954144cbce`;
+- metadados declarados no PDF: autor `Leunam Silva`, produtor Microsoft Word
+  para Microsoft 365 e criação em 18/04/2025;
+- conteúdo observado: déficit de R$ 181,766 milhões no exercício de 2024 e
+  opinião de auditoria com ressalva.
+
+A cópia não foi versionada, distribuída ou usada para substituir a fonte
+oficial. Como os URLs oficiais consultados responderam HTTP 403 ao acesso
+automatizado, não foi possível comparar hash, tamanho ou bytes com o arquivo
+remoto. A correspondência de conteúdo é forte, mas a identidade binária e a
+cadeia de publicação oficial permanecem não verificadas.
+
 ## Consequência para o rascunho
 
 A comparação `3767c808-8f64-49b6-b274-9462272d1148` permanece em
