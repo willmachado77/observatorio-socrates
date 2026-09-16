@@ -1,0 +1,6 @@
+[Unit]
+Description=Backup PostgreSQL do Observatório Sócrates
+
+[Service]
+Type=oneshot
+ExecStart=/ocupa/dev/observatorio-socrates/infra/scripts/backup-postgres.sh
