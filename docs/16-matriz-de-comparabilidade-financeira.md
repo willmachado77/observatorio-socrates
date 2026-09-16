@@ -50,14 +50,16 @@ Há base factual mínima para uma comparação estrita do
 `resultado_anual_2024`: os três clubes possuem alegação factual, referente a
 2024, vinculada a matérias do ge sobre seus respectivos balanços.
 
-O estado da comparação permanece `needs_context`. Os valores não harmonizam
-demonstrações contábeis, composição de passivos, receitas ou critérios de
-apuração; por isso, não autorizam conclusão causal, avaliação de gestão ou
-qualquer inferência sobre cobertura editorial.
+Por decisão humana registrada, o rascunho técnico pode permanecer em
+`draft` com ressalvas explícitas. Os valores não harmonizam demonstrações
+contábeis, composição de passivos, receitas ou critérios de apuração; por isso,
+não autorizam conclusão causal, avaliação de gestão ou qualquer inferência
+sobre cobertura editorial.
 
-Um registro técnico em `comparisons` pode organizar essas três alegações, desde
-que mantenha o estado `needs_context` e uma justificativa de equivalência seja
-revisada por humano antes de qualquer conclusão.
+O estado `draft` organiza exclusivamente as três alegações de resultado anual.
+Ele não autoriza publicação, aprovação privada, conclusão comparativa ou
+mudança de escopo. A confirmação da proveniência oficial do documento do
+Corinthians e a revisão humana da equivalência continuam obrigatórias.
 
 ## Próximo requisito
 

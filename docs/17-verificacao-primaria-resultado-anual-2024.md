@@ -52,16 +52,19 @@ cadeia de publicação oficial permanecem não verificadas.
 
 ## Consequência para o rascunho
 
-A comparação `3767c808-8f64-49b6-b274-9462272d1148` permanece em
-`needs_context`.
+Por decisão humana registrada, a comparação
+`3767c808-8f64-49b6-b274-9462272d1148` pode ser promovida a `draft` com
+ressalvas explícitas de proveniência e escopo.
 
-Embora os três itens jornalísticos registrem resultado anual de 2024, ainda
-não há validação primária direta para o Corinthians. Além disso, São Paulo FC
-apresenta demonstrações individuais e consolidadas, enquanto a equivalência de
-escopo do documento do Corinthians ainda precisa ser verificada.
+A cópia inspecionada do Corinthians é coerente com a referência oficial
+localizada, mas ainda não possui confirmação binária contra o arquivo remoto.
+Além disso, São Paulo FC apresenta demonstrações individuais e consolidadas,
+enquanto a equivalência de escopo do documento do Corinthians continua sujeita
+à ressalva de ausência de demonstrações consolidadas.
 
-Não é permitido alterar a comparação para `draft`, produzir conclusão ou
-comparar cobertura editorial enquanto essa lacuna persistir.
+O estado `draft` não permite produzir conclusão, comparar cobertura editorial,
+publicar resultado ou aprovar a comparação. Essas ações permanecem bloqueadas
+até revisão humana da equivalência e confirmação suficiente da proveniência.
 
 ## Próxima ação permitida
 
